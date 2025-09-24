@@ -82,6 +82,12 @@ Our *therapeutic prosthetic* vision is long-term research. Nothing here is inten
 - **Code/spec**: MIT
 - **Docs/whitepapers**: CC BY 4.0 (attribution to the Noēsis Forge project).
 
+**Quick Links**  
+- [Public CV](docs/cv/Stephen_Green_CV_PUBLIC.md)  
+- [Whitepapers Index](docs/whitepapers/INDEX.md)  
+- [Operator Spec & Demo (this repo)](README.md)
+
+
 ---
 
 If this repo helps you, consider opening an issue with feedback, or sharing a link to your experiments. We’re building toward **neurocognitive prosthetics** through small, reliable building blocks.
