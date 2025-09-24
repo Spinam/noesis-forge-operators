@@ -1,0 +1,5 @@
+# Example CMO v7 weight schedule (illustrative only)
+curiosity_weight: 0.2
+rebuttal_weight: 0.2
+safety_weight: 0.4
+consistency_weight: 0.2

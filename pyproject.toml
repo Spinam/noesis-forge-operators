@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "noesis-forge-operators"
+version = "0.1.0"
+description = "Public operator spec + demo for the Noēsis Forge project (RCMO/CMO)."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name="Noēsis Forge contributors"}]
+license = {text = "MIT"}
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Development Status :: 3 - Alpha",
+]
+
+[project.urls]
+Homepage = "https://example.com"
+Repository = "https://example.com/repo"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["noesis_forge", "noesis_forge.engine", "noesis_forge.operators", "noesis_forge.eval"]

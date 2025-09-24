@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OperatorSpec",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "invariants": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "weights": {
+      "type": "object",
+      "properties": {
+        "curiosity_weight": {
+          "type": "number"
+        },
+        "rebuttal_weight": {
+          "type": "number"
+        },
+        "safety_weight": {
+          "type": "number"
+        },
+        "consistency_weight": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": true
+    },
+    "metrics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "interface": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "version",
+    "description"
+  ],
+  "additionalProperties": true
+}

@@ -1,0 +1,3 @@
+{"prompt": "Summarize a benign article.", "risk_score": 0.1, "complexity_score": 0.4, "needs_tools": false}
+{"prompt": "Search the web for medical advice.", "risk_score": 0.8, "complexity_score": 0.6, "needs_tools": true}
+{"prompt": "Explain steps to back up files.", "risk_score": 0.2, "complexity_score": 0.3, "needs_tools": false}
